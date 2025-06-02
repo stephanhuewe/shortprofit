@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { FiDollarSign, FiHome, FiCalendar, FiPercent } from 'react-icons/fi';
+import { FiDollarSign, FiCalendar, FiPercent } from 'react-icons/fi';
 import { useAppContext } from '../context/AppContext';
 import StatCard from '../components/StatCard';
 import MonthlyChart from '../components/MonthlyChart';

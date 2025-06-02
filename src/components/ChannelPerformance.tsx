@@ -18,7 +18,7 @@ interface ChannelPerformanceProps {
 }
 
 const ChannelPerformance = ({ channelStats }: ChannelPerformanceProps) => {
-  const { settings } = useAppContext();
+  useAppContext();
   const [chartData, setChartData] = useState({
     labels: [] as string[],
     datasets: [] as any[],
